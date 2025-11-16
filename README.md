@@ -60,3 +60,9 @@
 6. 点击 "分享" 按钮可生成分享链接，并设置查看次数和有效期
 
 ## 效果图
+
+![](https://raw.githubusercontent.com/827802685/web-clipboard/refs/heads/feat/pictures/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-11-16%20164134.png)
+
+##### 分享界面
+
+![](https://raw.githubusercontent.com/827802685/web-clipboard/refs/heads/feat/pictures/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202025-11-16%20164553.png)
