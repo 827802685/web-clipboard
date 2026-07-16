@@ -1,0 +1,26 @@
+name = "web-clipboard"
+main = "index.js"
+compatibility_date = "2025-11-15"
+workers_dev = true
+
+# D1 数据库绑定
+[[d1_databases]]
+binding = "DB"
+database_name = "jtb-clipboard"
+database_id = "your-d1-database-id"
+
+# 环境变量（非敏感信息）
+[vars]
+GITHUB_ADMIN_ID = "your-github-id"
+ADMIN_EMAIL = "your-email@example.com"
+
+# 敏感信息请使用 secret（不要写在这里）:
+# wrangler secret put ADMIN_PASSWORD
+# wrangler secret put GITHUB_CLIENT_ID
+# wrangler secret put GITHUB_CLIENT_SECRET
+# wrangler secret put GOOGLE_CLIENT_ID
+# wrangler secret put GOOGLE_CLIENT_SECRET
+# wrangler secret put WECHAT_APP_ID
+# wrangler secret put WECHAT_APP_SECRET
+# wrangler secret put QQ_APP_ID
+# wrangler secret put QQ_APP_SECRET
